@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.row>*,
+.text-2,
+.my-footer {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+    justify-items: left;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
+
+.my-navbar {
+    background-color: #0c343b;
+    color: #f4fcfc;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.navbar {
+    background-color: #f4fcfcaf;
+}
+
+.text-color {
+    background-color: #f4fcfc6b;
+}
+
+.my-navbar-normal-color {
+    background-color: #32cce7;
+}
+
+.my-navbar-normal {
+    color: #071e22;
+}
+
+.carousel-photo {
+    object-fit: contain;
+}
+
+.card-contact {
+    height: 300px;
+}
+
+.my-icons {
+    color: #32cce7;
+}
+
+.adrress,
+.mobile,
+.email,
+.facebook {
+    color: white;
+}
+
+.reginiai,
+.tvarkarastis,
+.sokiai,
+.partneriai,
+.burger {
+    color: #071e22;
+}
+
+.card,
+.my-card {
+    background-color: #071e22;
+}
+
+.figure,
+.card-schedule {
+    background-color: white;
+}
+
+.text_1 {
+    text-align: center;
+    color: #071e22;
+}
+
+.text_2,
+.footer {
+    background-color: #071e22;
+    color: white;
+    text-align: center;
+}
+
+.text_2 {
+    height: 18rem;
+}
+
+figcaption,
+.btn-text {
+    background-color: #32cce7;
+}
+
+.figure-caption {
+    width: 11rem;
+    height: .3rem;
+    color: #071e22;
+}
+
+figcaption {
+    left: 29%;
+}
+
+.my_photo {
+    justify-content: space-between;
+}
+
+.small {
+    font-size: 9px;
+    width: 422px;
+    margin: 0 auto;
+}
+
+.my_text2 {
+    margin: 0 auto;
+}
+
+.mobile-left-undertext {
+    position: absolute;
+    top: 1810px;
+}
+
+.undertext_1 {
+    left: 99px;
+}
+
+.undertext_2 {
+    left: 507px;
+}
+
+.undertext_3 {
+    left: 912px;
+}
+
+.undertext_4 {
+    left: 1320px;
+}
+
+.my_button {
+    margin-top: 50px;
+}
+
+/* ---@MEDIA QUERY--- */
+
+/*tablet view*/
+@media (max-width: 900px) {
+    
+    .figure-caption {
+        width: 13rem;
+    }
+
+    .my_photo {
+        justify-content: space-evenly;
+    }
+
+    .figure {
+        margin-bottom: 20px;
+    }
+
+    .my_figure {
+        padding-top: 30px;
+    }
+
+    .translate-middle-y {
+        transform: translateY(-100%) !important;
+    }
+
+    .my_text2 {
+        margin: 0 auto;
+        width: 25rem;
+    }
+
+    .relative-pos {
+        position: relative;
+    }
+
+    .mobile-left-undertext {
+        top: 181px;
+    }
+
+    .undertext_1, .undertext_2 {
+        left: 60px;
+    }
+
+    .tablet-left-undertext {
+        top: 210px;
+        left: 76px;
+    }
+
+    .my_photo_tablet {
+        margin-left: 17px;
+    }
+
+    .my_button {
+        margin-top: 30px;
+    }
+
+}
+
+/*mobile view*/
+@media (max-width: 600px) {
+
+    .figure-caption {
+        text-align: right;
+    }
+
+    .relative-pos {
+        position: inherit;
+    }
+
+    .undertext_1 {
+        top: 2215px;
+        left: 140px;
+        width: 300px;
+    }
+
+    .undertext_2 {
+        top: 2515px;
+        left: 140px;
+        width: 300px;
+    }
+
+    .undertext_3 {
+        top: 2840px;
+        left: 140px;
+        width: 300px;
+    }
+
+    .undertext_4 {
+        top: 3170px;
+        left: 140px;
+        width: 300px;
+    }
+
+    .figure-img {
+        width: 410px;
+    }
+
+    .my_img_2, .my_img_3 {
+        margin-left: 8px; 
+    }
+
+}
